@@ -1,0 +1,65 @@
+.developers-section {
+    background: #DDE4EA;
+    width: 40%;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.heading_developers {
+    color: #291A2D;
+    font-family: Playfair;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.developers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.developer-card {
+    border: none !important;
+    background-color: #DDE4EA !important;
+    align-items: center !important;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.developer-photo {
+    width: 73px !important;
+    height: 73px !important;
+}
+
+.button-git {
+    color: #291A2D !important;
+    font-family: Playfair;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.button-git:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 992px) {
+    .developers-section {
+        width: 100%;
+    }
+
+    .developers {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .developers-section {
+        width: 100%;
+    }
+
+    .developers {
+        flex-direction: column;
+    }
+}

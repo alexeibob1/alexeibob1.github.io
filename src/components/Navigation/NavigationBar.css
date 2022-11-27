@@ -1,0 +1,35 @@
+.nav {
+    background-color: rgba(90, 71, 85, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    margin-right: 120px !important;
+}
+
+.nav-link, lang {
+    font-family: Playfair !important;
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    color: #FFF !important;
+}
+
+.flag {
+    margin-right: 10px;
+}
+
+.lang {
+    display: inline !important;
+}
+
+.nav-link:hover {
+    font-weight: 700 !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-languages {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
