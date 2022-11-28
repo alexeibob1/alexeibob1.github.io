@@ -6,7 +6,7 @@ import './NavigationBar.css'
 
 function NavigationBar() {
     return (
-        <Navbar expand="lg" className="nav">
+        <Navbar as="header" expand="lg" className="nav">
             <Container>
                 <Navbar.Brand href="#home" className="logo">
                     <img src={logo} alt="logo" />

@@ -2,7 +2,7 @@ import './Home.css'
 import NavigationBar from "../components/Navigation/NavigationBar";
 import AboutSection from "../components/About/About";
 import Person from "../components/Person/Person";
-import Developers from "../components/Developers/Developers";
+import Developer from "../components/Developer/Developer";
 
 function Home() {
     return (
@@ -11,7 +11,7 @@ function Home() {
             <AboutSection/>
             <div className="info-section">
                 <Person/>
-                <Developers/>
+                <Developer/>
             </div>
 
 
