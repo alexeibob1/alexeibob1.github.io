@@ -32,6 +32,11 @@
     height: 73px !important;
 }
 
+.developer-name {
+    font-family: Playfair;
+    font-weight: 700;
+}
+
 .button-git {
     color: #291A2D !important;
     font-family: Playfair;
