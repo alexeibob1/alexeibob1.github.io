@@ -1,11 +1,11 @@
 import Card from 'react-bootstrap/Card';
 import Stack from 'react-bootstrap/Stack';
-import './Developers.css'
+import './Developer.css'
 import dev1 from "../../img/dev1.png";
 import dev2 from "../../img/dev2.png";
 import dev3 from "../../img/dev3.png";
 
-function Developers() {
+function Developer() {
     return (
         <Stack className="developers-section">
             <h2 className="heading_developers">Разработчики</h2>
@@ -39,4 +39,5 @@ function Developers() {
     );
 }
 
-export default Developers;
+
+export default Developer;
