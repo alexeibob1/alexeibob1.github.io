@@ -10,13 +10,13 @@ function NavigationBar() {
         <>
             <Navbar as="header" expand="lg" className="nav">
                 <Container>
-                    <Link to="/home" className="logo">
+                    <Link to="/" className="logo">
                         <img src={logo} alt="logo" />
                     </Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Link to="/home" className="nav-link">Главная</Link>
+                            <Link to="/" className="nav-link">Главная</Link>
                             <Link to="/architects" className="nav-link">Архитекторы Беларуси</Link>
                         </Nav>
                         <div className="nav-languages">

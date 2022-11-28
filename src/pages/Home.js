@@ -11,8 +11,6 @@ function Home() {
                 <Person/>
                 <Developer/>
             </div>
-
-
         </>
     )
 }

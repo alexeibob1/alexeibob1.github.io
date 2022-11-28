@@ -1,0 +1,45 @@
+.architects-section {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #DDE4EA;
+}
+
+.arch-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.arch-list-heading {
+    color: #291A2D;
+    font-family: Playfair;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.search-form {
+    width: 25%;
+}
+
+.search-box {
+    border-radius: 10px;
+}
+
+.search-box::placeholder {
+    font-style: italic;
+    color: #C2C2C2;
+}
+
+@media only screen and (max-width: 992px) {
+    .arch-wrapper {
+        flex-direction: column;
+    }
+
+    .search-form {
+        width: 90%;
+        padding-top: 30px;
+    }
+}
