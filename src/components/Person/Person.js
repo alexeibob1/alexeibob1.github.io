@@ -4,7 +4,10 @@ import Stack from 'react-bootstrap/Stack';
 import './Person.css'
 import photo from '../../img/ananich.png'
 
+import { useTranslation } from 'react-i18next';
+
 function PersonOfDay() {
+    const { t, i18n } = useTranslation();
     return (
         <Stack className="person-section">
             <h2 className="heading_person-section">Деятель дня</h2>
@@ -16,8 +19,10 @@ function PersonOfDay() {
                         1955 - 2015
                     </Card.Text>
                     <Card.Text className="person-description">
-                        Внёс вклад в формирование архитектурного облика современного
-                        Минска и других белорусских городов. Член Белорусского союза архитекторов.
+                        {t('Welcome to React')};
+
+                        {/*Внёс вклад в формирование архитектурного облика современного*/}
+                        {/*Минска и других белорусских городов. Член Белорусского союза архитекторов.*/}
                     </Card.Text>
                     <Button className="button-more">Узнать больше</Button>
                 </Card.Body>
