@@ -1,29 +1,24 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-
-
-const resources = {
-    en: {
-        translation: {
-            "Welcome to React": "Welcome to React and react-i18next"
-        }
-    },
-    fr: {
-        translation: {
-            "Welcome to React": "Bienvenue à React et react-i18next"
-        }
-    }
-};
+import HttpApi from "i18next-http-backend";
+import Backend from 'i18next-http-backend';
 
 i18n
     .use(initReactI18next)
+    .use(HttpApi) // Registering the back-end plugin
+    .use(Backend)
 
     .init({
-        resources,
-        lng: "fr",
+        debug: true,
+        lng: "ru",
+        supportedLngs: ["en", "ru"],
 
         interpolation: {
-            escapeValue: false // react already safes from xss
+            escapeValue: false
+        },
+
+        backend: {
+            loadPath: '/locales/{{lng}}/{{ns}}.json'
         }
     });
 

@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Stack from 'react-bootstrap/Stack';
 import './Person.css'
 import photo from '../../img/ananich.png'
+import '../../i18n.js';
 
 import { useTranslation } from 'react-i18next';
 
@@ -19,8 +20,7 @@ function PersonOfDay() {
                         1955 - 2015
                     </Card.Text>
                     <Card.Text className="person-description">
-                        {t('Welcome to React')};
-
+                        {t("testkey")}
                         {/*Внёс вклад в формирование архитектурного облика современного*/}
                         {/*Минска и других белорусских городов. Член Белорусского союза архитекторов.*/}
                     </Card.Text>
