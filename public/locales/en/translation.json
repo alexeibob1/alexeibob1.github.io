@@ -1,3 +1,17 @@
 {
-  "testkey": "English language"
+  "home_page": "Home",
+  "list_of_arch": "Architects of Belarus",
+  "russian_lang": "Russian",
+  "english_lang": "English",
+  "greetings": "Discover the beauty of Belarusian architecture",
+  "about1": "Belarusian architecture is a collective centuries-long work and the pride of the peoples who inhabited the territory of the country at one time or another.",
+  "about2": "Here you will find information about outstanding architects of Belarus.",
+
+  "developers": "Developers",
+  "dev1": "Alexei Bobrik",
+  "dev2": "Vladislav Protchenko",
+  "dev3": "Stanislav Naftolsky",
+  "github": "GitHub profile",
+
+  "person_of_day": "Person of the day"
 }

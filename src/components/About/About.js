@@ -1,20 +1,21 @@
 import Stack from 'react-bootstrap/Stack';
 import './About.css'
-
+import {useTranslation} from "react-i18next";
+import '../../i18n.js';
 
 function AboutSection() {
+    const { t, i18n } = useTranslation();
     return (
         <Stack className="about">
             <h1 className="greetings">
-                Откройте для себя белорусскую архитектуру
+                {t("greetings")}
             </h1>
             <div className="text">
                 <p>
-                    Белорусская архитектура – это коллективная многовековая работа и гордость народов,
-                    в тот или иной исторический промежуток населявших территорию страны.
+                    {t("about1")}
                 </p>
                 <p>
-                    Здесь вы найдёте информацию о выдающихся архитекторах Беларуси.
+                    {t("about2")}
                 </p>
             </div>
         </Stack>

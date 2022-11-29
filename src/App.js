@@ -12,6 +12,7 @@ function App() {
             <Route path="/" element={<NavigationBar />}>
               <Route path="" element={<Home />} />
               <Route path="architects" element={<Architects />} />
+                <Route path="architects:id"/>
             </Route>
           </Routes>
         </BrowserRouter>
