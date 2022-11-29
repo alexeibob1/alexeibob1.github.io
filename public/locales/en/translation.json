@@ -13,5 +13,15 @@
   "dev3": "Stanislav Naftolsky",
   "github": "GitHub profile",
 
-  "person_of_day": "Person of the day"
+  "person_of_day": "Person of the day",
+  "personButton": "Learn more",
+
+  "architects": {
+    "ananich_yury": {
+      "name": "Yury",
+      "surname": "Ananich",
+      "patronymic": "Stepanovich",
+      "shortDescription": "He contributed to the formation of the architectural appearance of modern Minsk and other Belarusian cities. Member of the Belarusian Union of Architects."
+    }
+  }
 }

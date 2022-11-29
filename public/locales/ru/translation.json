@@ -15,9 +15,10 @@
   "github": "Профиль на GitHub",
 
   "person_of_day": "Деятель дня",
+  "personButton": "Узнать больше",
 
   "architects": {
-    "ananich_jury": {
+    "ananich_yury": {
       "name": "Юрий",
       "surname": "Ананич",
       "patronymic": "Степанович",
