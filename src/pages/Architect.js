@@ -1,10 +1,10 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Stack from 'react-bootstrap/Stack';
-import './Person.css'
-import data from "../../noLangData.json";
-import '../../i18n.js';
-import { Link} from "react-router-dom"
+import './Architect.css'
+import data from "../noLangData.json";
+import '../i18n.js';
+import {Link, useParams} from "react-router-dom"
 
 import { useTranslation } from 'react-i18next';
 
@@ -12,18 +12,15 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
 
-function PersonOfDay() {
+function Architect() {
     const { t, i18n } = useTranslation();
-    const keys = Object.keys(data);
-    // let index = getRandomInt(1);
-    let index = 1;
-    let id = keys[index];
-
+    const params = useParams();
+    const id = params.id;
     return (
         <Stack className="person-section">
             <h2 className="heading_person-section">{t("person_of_day")}</h2>
             <Card className="person-card">
-                <Card.Img src={require(`../../data/${id}/photos/ava.png`)} className="person-photo"/>
+                <Card.Img src={require(`../data/${id}/photos/ava.png`)} className="person-photo"/>
                 <Card.Body className="person-info">
                     <Card.Title className="person-name">{t(`architects.${id}.surname`)} {t(`architects.${id}.name`)}</Card.Title>
                     <Card.Text className="person-years">
@@ -32,11 +29,10 @@ function PersonOfDay() {
                     <Card.Text className="person-description">
                         {t(`architects.${id}.shortDescription`)}
                     </Card.Text>
-                    <Button className="button-more" as={Link} to={`/architects/${id}`}>{t("personButton")}</Button>
                 </Card.Body>
             </Card>
         </Stack>
     );
 }
 
-export default PersonOfDay;
+export default Architect;
