@@ -8,7 +8,6 @@ import {Link, useParams} from "react-router-dom"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import Carousel from 'react-bootstrap/Carousel';
-import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
 import { useTranslation } from 'react-i18next';
 
