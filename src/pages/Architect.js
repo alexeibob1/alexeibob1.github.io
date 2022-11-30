@@ -67,6 +67,15 @@ function Architect() {
                     )
                 }
             </Carousel>
+
+            <div className="video-wrapper">
+                <iframe className="person-video" src={`https://www.youtube.com/embed/${data[id]["videoLink"]}`}
+                allow="accelerometer; autoplay, picture-in-picture"
+                allowFullScreen>
+
+                </iframe>
+            </div>
+
         </Stack>
     );
 }

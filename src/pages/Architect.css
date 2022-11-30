@@ -54,6 +54,17 @@
     position: static !important;
 }
 
+.video-wrapper {
+    margin-top: 20px;
+    width: 70%;
+    height: 700px;
+}
+
+.person-video {
+    width: 100%;
+    height: 70% !important;
+}
+
 @media only screen and (max-width: 992px) {
     .architect-photo {
         height: 40% !important;
@@ -68,6 +79,10 @@
         flex-direction: column !important;
         align-items: center !important;
 
+    }
+
+    .video-wrapper {
+        height: 500px;
     }
 
     .architect-info {
@@ -95,4 +110,8 @@
         width: 60% !important;
     }
 
+    .video-wrapper {
+        height: 400px;
+        width: 95%;
+    }
 }
