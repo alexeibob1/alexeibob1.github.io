@@ -8,6 +8,7 @@ import {Link, useParams} from "react-router-dom"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import Carousel from 'react-bootstrap/Carousel';
+import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
 import { useTranslation } from 'react-i18next';
 
@@ -75,6 +76,12 @@ function Architect() {
 
                 </iframe>
             </div>
+
+            <iframe
+                src={t(`architects.${id}.mapsLink`)}
+                allowFullScreen="" loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade" className="person-map"></iframe>
+
 
         </Stack>
     );
