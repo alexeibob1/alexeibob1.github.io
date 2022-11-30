@@ -17,11 +17,12 @@
   "personButton": "Learn more",
 
   "architects": {
-    "ananich_yury": {
-      "name": "Yury",
-      "surname": "Ananich",
-      "patronymic": "Stepanovich",
-      "shortDescription": "He contributed to the formation of the architectural appearance of modern Minsk and other Belarusian cities. Member of the Belarusian Union of Architects."
+    "baklanov_michail": {
+      "name": "Michail",
+      "surname": "Baklanov",
+      "patronymic": "Ivanovich",
+      "shortDescription": "Belarusian Soviet architect. Honored Architect of the Belarusian SSR. Realized an art gallery (art museum) of the BSSR.",
+      "longDescription": "Baklanov's mastery was formed under the influence of such prominent masters of architecture as I. Langbard, M. Parusnikov, and M. Barshch. Baklanov shared their creative passions and throughout 1944-1950 was their student and active assistant. Baklanov asserted his creative independence only in 1949 when he received his first major commission to design a building for the State Picture Gallery of the BSSR."
     }
   }
 }
