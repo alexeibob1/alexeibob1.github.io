@@ -5,6 +5,8 @@ import './Architect.css'
 import data from "../noLangData.json";
 import '../i18n.js';
 import {Link, useParams} from "react-router-dom"
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 
 import { useTranslation } from 'react-i18next';
 
@@ -30,6 +32,25 @@ function Architect() {
                     </Card.Text>
                 </Card.Body>
             </Card>
+
+            <VerticalTimeline>
+                {
+                    data[id]["events"].map((time, index) =>
+                        <VerticalTimelineElement
+                            key = {index}
+                            date = {time}
+                            className="vertical-timeline-element--work"
+                            contentStyle={{ background: 'rgba(117,89,113,0.84)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  rgba(140,127,127,0.84)' }}
+                            iconStyle={{ background: 'rgba(140,127,127,0.84)', color: '#fff' }}
+                        >
+                        <p>{t(`architects.${id}.inf${index}`)}</p>
+                        </VerticalTimelineElement>
+
+                    )
+                }
+
+            </VerticalTimeline>
         </Stack>
     );
 }
