@@ -35,6 +35,25 @@
     width: 100%;
 }
 
+.works-carousel {
+    margin-top: 40px;
+    width: 90%;
+    text-align: center;
+}
+
+.carousel-image {
+    max-width: 90% !important;
+}
+
+.carousel-caption {
+    font-family: Playfair;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: static !important;
+}
+
 @media only screen and (max-width: 992px) {
     .architect-photo {
         height: 40% !important;

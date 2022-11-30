@@ -7,6 +7,7 @@ import '../i18n.js';
 import {Link, useParams} from "react-router-dom"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 import { useTranslation } from 'react-i18next';
 
@@ -46,11 +47,26 @@ function Architect() {
                         >
                         <p>{t(`architects.${id}.inf${index}`)}</p>
                         </VerticalTimelineElement>
-
                     )
                 }
-
             </VerticalTimeline>
+
+            <Carousel interval={null} className="works-carousel">
+                {
+                    Object.entries(data[id]["gallery"]).map(([key, val], index) =>
+                        <Carousel.Item key={index}>
+                        <img
+                        className="carousel-image"
+                        src={require(`../data/${id}/${key}`)}
+                        alt={`${index + 1}`}
+                        />
+                        <Carousel.Caption className="carousel-caption">
+                        <p>{t(`architects.${id}.captions.${val}`)}</p>
+                        </Carousel.Caption>
+                        </Carousel.Item>
+                    )
+                }
+            </Carousel>
         </Stack>
     );
 }
