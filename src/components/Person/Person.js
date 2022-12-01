@@ -8,6 +8,7 @@ import { Link} from "react-router-dom"
 
 import { useTranslation } from 'react-i18next';
 
+
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
@@ -15,8 +16,7 @@ function getRandomInt(max) {
 function PersonOfDay() {
     const { t, i18n } = useTranslation();
     const keys = Object.keys(data);
-    // let index = getRandomInt(1);
-    let index = 0;
+    let index = getRandomInt(2);
     let id = keys[index];
 
     return (

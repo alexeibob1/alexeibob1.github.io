@@ -38,6 +38,27 @@
         "3": "Envelope with the original stamp of the Republic of Belarus, dedicated to the 100th anniversary of M. I. Baklanov. 2014."
       },
       "mapsLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150505.92958396932!2d27.45328575748422!3d53.8845584624547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2sMinsk!5e0!3m2!1sen!2sby!4v1669838941593!5m2!1sen!2sby"
+    },
+
+    "levin_leonid": {
+      "name": "Leonid",
+      "surname": "Levin",
+      "patronymic": "Mendelevich",
+      "shortDescription": "Honored Architect of the Republic of Belarus, Laureate of the Lenin Prize and the Lenin Komsomol Prize.",
+      "longDescription": "Honored Architect of the Republic of Belarus, Laureate of the Lenin Prize and Lenin Komsomol Prize, Laureate of the Volgograd Komsomol Prize, twice winner of the State Prize of the Republic of Belarus, laureate of many prestigious competitions and reviews of architectural works, Academician of the International and Belarusian Academies of Architecture.",
+      "inf0": "From 1954 to 1960 he studied at the Belarusian Polytechnic Institute. Since 1960, he worked at the Minsk project Institute (from an architect to the head of the Workshop for the development of the center of Minsk).",
+      "inf1": "In the period from 1960 to 1967 he participated in the creation of the park. 50th anniversary of Soviet power. In 1968, he took part in the creation of the exhibition pavilion of the Exhibition of Economic Achievements of the Byelorussian SSR in Minsk.",
+      "inf2": "1970 - as part of a team of authors, he was awarded the Lenin Prize for the memorial complex of 1968-1969. \"Khatyn\".",
+      "inf3": "Since 1991, he has been chairman of the Union of Belarusian Jewish Public Associations and Communities. Since 1997, he has been the director of his own creative workshop, Creative Workshop of Architect L. Levin.",
+      "captions": {
+        "1": "Memorial complex \"Khatyn\"",
+        "2": "Memorial complex \"Yama\"",
+        "3": "Monument to the Belarusian partisans \"Breakthrough\"",
+        "4": "Monument to Yanka Kupala",
+        "5": "Monument to Yakub Kolas",
+        "6": "Metro station \"Ploshchad Lenina\""
+      },
+      "mapsLink": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d602480.3256130303!2d27.1675975!3d53.8528453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2sMinsk!5e0!3m2!1sen!2sby!4v1669910581280!5m2!1sen!2sby"
     }
   }
 }
