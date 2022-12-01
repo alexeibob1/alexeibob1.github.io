@@ -40,6 +40,26 @@
       "6.png" : "6"
     },
     "videoLink": "P2-yBJvcJUo"
+  },
+
+  "dubeikovsky_leon": {
+    "birthYear": "1869",
+    "deathYear": "1940",
+    "birthDate": "19.07.1869",
+    "deathDate": "06.11.1940",
+    "events": [
+      "1910 - 1916",
+      "1916 - 1917",
+      "1917 - 1919",
+      "1919 - 1922",
+      "1922 - 1933"
+    ],
+    "gallery" : {
+      "1.png" : "1",
+      "2.png" : "2",
+      "3.png" : "3"
+    },
+    "videoLink": "s-JIbZBMbRU"
   }
 
 }
