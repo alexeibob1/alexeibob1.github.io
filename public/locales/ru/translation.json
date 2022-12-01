@@ -17,6 +17,9 @@
   "person_of_day": "Деятель дня",
   "personButton": "Узнать больше",
 
+  "architectsListHeader": "Список архитекторов Беларуси",
+  "searchCaption": "Поиск архитектора",
+
   "architects": {
     "baklanov_michail": {
       "name": "Михаил",

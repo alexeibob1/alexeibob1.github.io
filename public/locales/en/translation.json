@@ -16,6 +16,9 @@
   "person_of_day": "Person of the day",
   "personButton": "Learn more",
 
+  "architectsListHeader": "List of architects of Belarus",
+  "searchCaption": "Search for an architect",
+
   "architects": {
     "baklanov_michail": {
       "name": "Michail",

@@ -33,6 +33,21 @@
     color: #C2C2C2;
 }
 
+.arch-fio {
+    font-family: Playfair;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.arch-descr {
+    font-family: Playfair;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
 @media only screen and (max-width: 992px) {
     .arch-wrapper {
         flex-direction: column;
