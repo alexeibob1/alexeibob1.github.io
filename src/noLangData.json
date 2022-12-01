@@ -20,7 +20,7 @@
     "videoLink": "7CsnFSbpUqE"
   },
 
-  "levin-leonid": {
+  "levin_leonid": {
     "birthYear": "1936",
     "deathYear": "2014",
     "birthDate": "25.07.1936",
@@ -60,6 +60,28 @@
       "3.png" : "3"
     },
     "videoLink": "s-JIbZBMbRU"
+  },
+
+  "shabunevsky_stanislav": {
+    "birthYear": "1868",
+    "deathYear": "1937",
+    "birthDate": "02.12.1868",
+    "deathDate": "07.10.1937",
+    "events": [
+      "1897 - 1909",
+      "1909 - 1911",
+      "1919 - 1922",
+      "1923 - 1931",
+      "1931 - 1937"
+    ],
+    "gallery": {
+      "1.png": "1",
+      "2.png": "2",
+      "3.png": "3",
+      "4.png": "4",
+      "5.png": "5"
+    },
+    "videoLink": "a43rFmrY78c"
   }
 
 }
