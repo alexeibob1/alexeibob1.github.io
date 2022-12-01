@@ -18,6 +18,26 @@
       "3.png" : "3"
     },
     "videoLink": "7CsnFSbpUqE"
-  }
+  },
 
+  "panteleimonovich_yuriy": {
+    "birthYear": "1932",
+    "deathYear": "2019",
+    "birthDate": "29.05.1932",
+    "deathDate": "21.03.2019",
+    "events": [
+      "1932 - 1956",
+      "1956 - 1986",
+      "1986 - 1994",
+      "1994 - 2002",
+      "2002 - 2011",
+      "2011 - 2019"
+    ],
+    "gallery" : {
+      "1.png" : "1",
+      "2.png" : "2",
+      "3.png" : "3"
+    },
+    "videoLink": "KoCasp6SVck"
+  }
 }
