@@ -9,6 +9,7 @@
     color: #291A2D;
     font-family: Playfair;
     font-weight: 700;
+    font-size: 30px;
     margin-bottom: 35px;
 }
 
@@ -30,6 +31,11 @@
 .developer-photo {
     width: 73px !important;
     height: 73px !important;
+}
+
+.developer-name {
+    font-family: Playfair;
+    font-weight: 700;
 }
 
 .button-git {
