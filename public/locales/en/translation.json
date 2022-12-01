@@ -17,11 +17,24 @@
   "personButton": "Learn more",
 
   "architects": {
-    "ananich_yury": {
-      "name": "Yury",
-      "surname": "Ananich",
-      "patronymic": "Stepanovich",
-      "shortDescription": "He contributed to the formation of the architectural appearance of modern Minsk and other Belarusian cities. Member of the Belarusian Union of Architects."
+    "baklanov_michail": {
+      "name": "Michail",
+      "surname": "Baklanov",
+      "patronymic": "Ivanovich",
+      "shortDescription": "Belarusian Soviet architect. Honored Architect of the Belarusian SSR. Realized an art gallery (art museum) of the BSSR.",
+      "longDescription": "Baklanov's mastery was formed under the influence of such prominent masters of architecture as I. Langbard, M. Parusnikov, and M. Barshch. Baklanov shared their creative passions and throughout 1944-1950 was their student and active assistant. Baklanov asserted his creative independence only in 1949 when he received his first major commission to design a building for the State Picture Gallery of the BSSR.",
+      "inf0": "He was born on January 30, 1914 in the village of Ivanovka (now Volnovakha district of Donetsk region of Ukraine). After graduating from a factory school, he worked as a draftsman at the Donetsk Iron and Steel Works.",
+      "inf1": "In 1932, M. Baklanov began studying at the Kharkov Architectural and Construction Technical School.",
+      "inf2": "In 1936 he entered the Kharkov Civil Engineering Institute (now Kharkov National University of Construction and Architecture). However, he did not complete his studies.",
+      "inf3": "In December 1940, from his 4th year, he was drafted into the army, and soon he was sent to the 17th Separate Division of barrage balloons near Bialystok. At the beginning of World War II, Private Baklanov fought against the Nazis, but in July 1941 he was taken prisoner. Until 1943 he was held in prisoner of war camps in Poland. In March he escaped and soon after joined the partisan brigade \"People's Avengers\". For his active participation in the battles against the invaders, he was awarded the medal \"Partisan of the Patriotic War\", 1st degree.",
+      "inf4": "After Belarus was liberated, in August 1944 Mikhail Baklanov was sent to work in the architectural and planning workshop of the Department of Architecture under the BSSR Soviet Socialist Republic (Belgosproekt) in the studio which was headed by Professor M. Barshch. For 36 years, the architect's biography was linked to this institution. He worked his way up from an architect on the staff to head of the architectural design studio. Baklanov's craftsmanship was formed under the influence of such prominent masters of architecture as I. Langbard, M. Parusnikov, M. Barshch. Between 1944 and 1950 M. Baklanov shared their creative passions and became their student and active assistant. Baklanov's creative independence came only in 1949 when he received his first major contract - the development of the building for the State Gallery of the BSSR.",
+      "inf5": "After his retirement, he took a great interest in painting, copying works by Russian artists of the second half of the 19th century.",
+      "captions": {
+        "1": "National Art Museum of the Republic of Belarus",
+        "2": "M. Gorky National Academic Drama Theater",
+        "3": "Envelope with the original stamp of the Republic of Belarus, dedicated to the 100th anniversary of M. I. Baklanov. 2014."
+      },
+      "mapsLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150505.92958396932!2d27.45328575748422!3d53.8845584624547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2sMinsk!5e0!3m2!1sen!2sby!4v1669838941593!5m2!1sen!2sby"
     }
   }
 }

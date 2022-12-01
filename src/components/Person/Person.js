@@ -16,14 +16,14 @@ function PersonOfDay() {
     const { t, i18n } = useTranslation();
     const keys = Object.keys(data);
     // let index = getRandomInt(1);
-    let index = 1;
+    let index = 0;
     let id = keys[index];
 
     return (
         <Stack className="person-section">
             <h2 className="heading_person-section">{t("person_of_day")}</h2>
             <Card className="person-card">
-                <Card.Img src={require(`../../data/${id}/photos/ava.png`)} className="person-photo"/>
+                <Card.Img src={require(`../../data/${id}/ava.png`)} className="person-photo"/>
                 <Card.Body className="person-info">
                     <Card.Title className="person-name">{t(`architects.${id}.surname`)} {t(`architects.${id}.name`)}</Card.Title>
                     <Card.Text className="person-years">

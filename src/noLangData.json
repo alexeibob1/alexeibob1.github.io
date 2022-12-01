@@ -1,15 +1,23 @@
 {
-  "ananich_yury": {
-    "birthYear": "1955",
-    "deathYear": "2015",
-    "birthDate": "23.11.1955",
-    "deathDate": "28.02.2015"
-  },
-
-  "boreyko_yury": {
-    "birthYear": "1955",
-    "deathYear": "2015",
-    "birthDate": "23.11.1955",
-    "deathDate": "28.02.2015"
+  "baklanov_michail": {
+    "birthYear": "1914",
+    "deathYear": "1990",
+    "birthDate": "13.01.1914",
+    "deathDate": "23.01.1990",
+    "events": [
+      "1914 - 1932",
+      "1932 - 1936",
+      "1936 - 1940",
+      "1940 - 1944",
+      "1944 - 1950",
+      "1950 - 1990"
+    ],
+    "gallery" : {
+      "1.png" : "1",
+      "2.png" : "2",
+      "3.png" : "3"
+    },
+    "videoLink": "7CsnFSbpUqE"
   }
+
 }
