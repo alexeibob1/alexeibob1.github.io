@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe32c603.css",
-    "main.js": "/static/js/main.2a3b7c0a.js",
+    "main.css": "/static/css/main.aa12ead7.css",
+    "main.js": "/static/js/main.e303a09f.js",
+    "static/media/2.png": "/static/media/2.9f6a9fe3cf1373b39f73.png",
     "static/media/bckg_about.png": "/static/media/bckg_about.953aaf90ece04ed06436.png",
+    "static/media/1.png": "/static/media/1.e96449da6138de7c0e67.png",
+    "static/media/5.png": "/static/media/5.fab961e6336581ee9782.png",
+    "static/media/4.png": "/static/media/4.9f9ae264ae242e736daf.png",
+    "static/media/3.png": "/static/media/3.63105579c66762ea77c0.png",
+    "static/media/6.png": "/static/media/6.5f46b99800fc7e030303.png",
     "static/media/PlayfairDisplay-Medium.ttf": "/static/media/PlayfairDisplay-Medium.d8afa483b200cadcda26.ttf",
     "static/media/PlayfairDisplay-Bold.ttf": "/static/media/PlayfairDisplay-Bold.93cdecc21109a014b86b.ttf",
     "static/media/PlayfairDisplay-Regular.ttf": "/static/media/PlayfairDisplay-Regular.27705d9c43e8c36b1abd.ttf",
-    "static/media/ananich.png": "/static/media/ananich.ad38f5c29588dee706b7.png",
+    "static/media/ava.png": "/static/media/ava.ed7864de5929e8b25b09.png",
     "static/media/dev1.png": "/static/media/dev1.adc79c038524ef312d5a.png",
     "static/media/logo.svg": "/static/media/logo.9764fab9c5af862a137aa64abc674b45.svg",
     "static/media/flagEng.svg": "/static/media/flagEng.2d3d3012049a69ef62bd67720cf12308.svg",
     "static/media/flagRus.svg": "/static/media/flagRus.db4758dba4f5ce6500f5a8da3536e3df.svg",
     "index.html": "/index.html",
-    "main.fe32c603.css.map": "/static/css/main.fe32c603.css.map",
-    "main.2a3b7c0a.js.map": "/static/js/main.2a3b7c0a.js.map"
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.aa12ead7.css.map": "/static/css/main.aa12ead7.css.map",
+    "main.e303a09f.js.map": "/static/js/main.e303a09f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe32c603.css",
-    "static/js/main.2a3b7c0a.js"
+    "static/css/main.aa12ead7.css",
+    "static/js/main.e303a09f.js"
   ]
 }
