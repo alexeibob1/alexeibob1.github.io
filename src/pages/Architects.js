@@ -14,7 +14,7 @@ function Architects() {
                 <div className="arch-wrapper">
                     <h1 className="arch-list-heading">{t("architectsListHeader")}</h1>
                     <Form className="search-form">
-                            <Form.Control className="search-box" type="text" placeholder={t("searchCaption")} />
+                            <Form.Control className="search-box" type="search" placeholder={t("searchCaption")} />
                     </Form>
                 </div>
 
