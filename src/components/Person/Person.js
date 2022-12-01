@@ -16,7 +16,7 @@ function getRandomInt(max) {
 function PersonOfDay() {
     const { t, i18n } = useTranslation();
     const keys = Object.keys(data);
-    let index = getRandomInt(2);
+    let index = getRandomInt(4);
     let id = keys[index];
 
     return (
